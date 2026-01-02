@@ -1,0 +1,14 @@
+let a: [1, 2, 3]
+let x: 5
+let o:[
+    "hola": "mundo",
+    x
+]
+let z: []
+let w: [:]
+
+log(a)
+log(x)
+log(o)
+log(z)
+log(w)
