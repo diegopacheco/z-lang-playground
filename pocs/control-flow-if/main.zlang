@@ -1,0 +1,8 @@
+let x: 3
+if x = 3 {
+    log("Three times is the charm!")
+} else if x > 0 {
+    log("X is positive.")
+} else {
+    log("X is feeling negative today.")
+}
