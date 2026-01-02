@@ -1,0 +1,11 @@
+let a : 1 to 5
+let b: 1...5
+let c: 1 til 5
+let d: 1 to 5 by 2
+let e: 1 til 5 by 2
+
+log(a)
+log(b)
+log(c)
+log(d)
+log(e)
