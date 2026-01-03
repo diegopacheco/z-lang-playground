@@ -1,0 +1,8 @@
+let x: 10
+let y: 20
+log(x = y)
+log(x < y)
+log(x > y)
+log(x <= y)
+log(x >= y)
+log(x = 10)
