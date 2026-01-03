@@ -1,0 +1,6 @@
+let fruits: ["apple", "banana", "cherry"]
+let upper: loop (f <- fruits) f.toUpperCase()
+log(upper)
+let nums: 1 to 5
+let squares: loop (n <- nums) n * n
+log(squares)
