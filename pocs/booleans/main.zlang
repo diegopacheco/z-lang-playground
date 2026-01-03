@@ -1,0 +1,8 @@
+let a: true
+let b: false
+log(a)
+log(b)
+log(a and b)
+log(a or b)
+log(not(a))
+log(not(b))
