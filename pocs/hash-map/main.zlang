@@ -1,0 +1,9 @@
+let person: [
+    "name": "Diego",
+    "age": 30,
+    "city": "Porto Alegre"
+]
+log(person)
+log(person["name"])
+log(person["age"])
+log(person["city"])
