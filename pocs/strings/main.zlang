@@ -1,0 +1,8 @@
+let greeting: "Hello"
+let name: "Diego"
+let full: greeting ++ " " ++ name
+log(full)
+log(full.length)
+log(full.toUpperCase())
+log(full.toLowerCase())
+log(full.includes("Diego"))
