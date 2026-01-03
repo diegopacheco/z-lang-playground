@@ -1,0 +1,7 @@
+let nums: [10, 20, 30, 40, 50]
+log(nums)
+log(nums[0])
+log(nums[4])
+log(nums.length)
+log(nums.reverse())
+log(nums.slice(1, 3))
