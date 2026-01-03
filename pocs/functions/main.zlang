@@ -1,0 +1,9 @@
+def add: func (x, y) {
+    return x + y
+}
+def square: func (n) {
+    return n * n
+}
+log(add(5, 3))
+log(square(4))
+log(square(add(2, 3)))
