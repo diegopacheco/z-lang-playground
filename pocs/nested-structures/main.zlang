@@ -1,0 +1,11 @@
+let company: [
+    "name": "TechCorp",
+    "employees": [
+        ["name": "Alice", "role": "Dev"],
+        ["name": "Bob", "role": "QA"]
+    ]
+]
+log(company)
+log(company["name"])
+log(company["employees"][0])
+log(company["employees"][1]["name"])
