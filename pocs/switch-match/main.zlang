@@ -1,0 +1,15 @@
+let day: "Monday"
+let result: match day {
+    "Monday" => "Start of week",
+    "Friday" => "Almost weekend",
+    "Saturday" => "Weekend",
+    "Sunday" => "Weekend",
+    _ => "Midweek"
+}
+log(result)
+let num: 42
+let numType: match num {
+    0 => "zero",
+    _ => "other"
+}
+log(numType)
