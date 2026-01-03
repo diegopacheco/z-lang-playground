@@ -1,0 +1,6 @@
+let i: 0
+loop {
+    if i > 4 { break }
+    log(i)
+    i: i + 1
+}
