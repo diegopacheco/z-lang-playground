@@ -1,0 +1,14 @@
+let nums: 1 to 10
+let sum: 0
+let i: 0
+
+loop {
+    if i >= nums.length { break }
+    let n: nums[i]
+    
+    if n % 2 = 0 {
+        sum: sum + (n * n)
+    }
+    i: i + 1
+}
+log(sum)
