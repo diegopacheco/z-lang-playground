@@ -1,0 +1,13 @@
+let n: 10
+let a: 0
+let b: 1
+let i: 0
+
+loop {
+  if i >= n { break }
+  log(a)
+  let temp: a
+  a: b
+  b: temp + b
+  i: i + 1
+}
