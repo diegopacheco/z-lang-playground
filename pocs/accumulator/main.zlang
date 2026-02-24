@@ -1,0 +1,12 @@
+def makeAccumulator: func(initial) {
+    let value: initial
+    def add: func(n) {
+        value: value + n
+        return value
+    }
+    return add
+}
+let acc: makeAccumulator(0)
+log(acc(5))
+log(acc(10))
+log(acc(3))
