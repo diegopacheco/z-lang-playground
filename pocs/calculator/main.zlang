@@ -1,0 +1,14 @@
+def calc: func(op, a, b) {
+    let result: match op {
+        "add" => a + b,
+        "sub" => a - b,
+        "mul" => a * b,
+        "div" => a / b,
+        _ => 0
+    }
+    return result
+}
+log(calc("add", 10, 5))
+log(calc("sub", 10, 5))
+log(calc("mul", 10, 5))
+log(calc("div", 10, 5))
