@@ -1,0 +1,14 @@
+let n: 27
+let steps: 0
+loop {
+    if n = 1 { break }
+    log(n)
+    if n % 2 = 0 {
+        n: n / 2
+    } else {
+        n: n * 3 + 1
+    }
+    steps: steps + 1
+}
+log(n)
+log("steps: " ++ steps)
