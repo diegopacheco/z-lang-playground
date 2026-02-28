@@ -1,0 +1,10 @@
+let n: 10
+loop {
+    if n < 0 { break }
+    if n = 0 {
+        log("Liftoff!")
+    } else {
+        log(n)
+    }
+    n: n - 1
+}
