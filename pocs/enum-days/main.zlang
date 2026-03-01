@@ -1,0 +1,12 @@
+let days: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+let i: 0
+loop {
+    if i >= days.length { break }
+    let label: match days[i] {
+        "Sat" => "weekend",
+        "Sun" => "weekend",
+        _ => "workday"
+    }
+    log(days[i] ++ " -> " ++ label)
+    i: i + 1
+}
