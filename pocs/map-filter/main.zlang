@@ -1,0 +1,13 @@
+let nums: [1, 2, 3, 4, 5, 6, 7, 8]
+let doubled: loop (n <- nums) n * 2
+log(doubled)
+let evens: []
+let i: 0
+loop {
+    if i >= nums.length { break }
+    if nums[i] % 2 = 0 {
+        evens: evens ++ [nums[i]]
+    }
+    i: i + 1
+}
+log(evens)
