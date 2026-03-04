@@ -1,0 +1,14 @@
+let matrix: [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+log(matrix[0])
+log(matrix[1][1])
+log(matrix[2][2])
+let r: 0
+loop {
+    if r >= 3 { break }
+    log(matrix[r][r])
+    r: r + 1
+}
