@@ -1,0 +1,12 @@
+let nums: [34, 12, 78, 5, 99, 23, 1, 56]
+let min: nums[0]
+let max: nums[0]
+let i: 1
+loop {
+    if i >= nums.length { break }
+    if nums[i] < min { min: nums[i] }
+    if nums[i] > max { max: nums[i] }
+    i: i + 1
+}
+log("min: " ++ min)
+log("max: " ++ max)
