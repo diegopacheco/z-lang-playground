@@ -1,0 +1,13 @@
+let a: 10
+let b: 20
+log("before: a=" ++ a ++ " b=" ++ b)
+let temp: a
+a: b
+b: temp
+log("after: a=" ++ a ++ " b=" ++ b)
+let x: "hello"
+let y: "world"
+let tmp: x
+x: y
+y: tmp
+log(x ++ " " ++ y)
