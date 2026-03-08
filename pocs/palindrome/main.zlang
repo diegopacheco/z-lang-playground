@@ -1,0 +1,9 @@
+def isPalindrome: func(s) {
+    let letters: s.split("")
+    let rev: letters.reverse().join("")
+    return s = rev
+}
+log(isPalindrome("racecar"))
+log(isPalindrome("hello"))
+log(isPalindrome("madam"))
+log(isPalindrome("zlang"))
