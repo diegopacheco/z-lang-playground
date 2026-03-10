@@ -1,0 +1,14 @@
+let prices: [19.99, 5.50, 12.00, 3.75, 8.25]
+let total: 0
+let count: 0
+let i: 0
+loop {
+    if i >= prices.length { break }
+    total: total + prices[i]
+    count: count + 1
+    i: i + 1
+}
+let avg: total / count
+log("total: " ++ total)
+log("count: " ++ count)
+log("average: " ++ avg)
