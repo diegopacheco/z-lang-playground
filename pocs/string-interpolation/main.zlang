@@ -1,0 +1,5 @@
+let name: "Diego"
+let age: 30
+let city: "Porto Alegre"
+let msg: "Name: " ++ name ++ " Age: " ++ age ++ " City: " ++ city
+log(msg)
