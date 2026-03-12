@@ -1,0 +1,6 @@
+let word: "zlang"
+let letters: word.split("")
+let reversed: letters.reverse()
+let result: reversed.join("")
+log(result)
+log(result = "gnalz")
