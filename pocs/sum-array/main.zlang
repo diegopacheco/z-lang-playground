@@ -1,0 +1,9 @@
+let nums: [10, 20, 30, 40, 50]
+let total: 0
+let i: 0
+loop {
+    if i >= nums.length { break }
+    total: total + nums[i]
+    i: i + 1
+}
+log(total)
